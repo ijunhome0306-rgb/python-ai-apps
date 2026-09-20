@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Claude Code skill development workspace (not part of the app)
+.claude/
+.agents/
