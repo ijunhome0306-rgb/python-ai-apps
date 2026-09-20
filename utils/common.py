@@ -10,10 +10,10 @@ from google.genai import types
 load_dotenv()
 
 MODEL_OPTIONS = {
-    "Gemini 2.5 Flash（高速・おすすめ）": "gemini-2.5-flash",
-    "Gemini 2.5 Pro（高精度）": "gemini-2.5-pro",
+    "Gemini 3.6 Flash（高速・おすすめ）": "gemini-3.6-flash",
+    "Gemini 3.1 Pro（高精度）": "gemini-3.1-pro-preview",
 }
-DEFAULT_MODEL = "gemini-2.5-flash"
+DEFAULT_MODEL = "gemini-3.6-flash"
 
 
 def render_sidebar() -> None:
